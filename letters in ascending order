@@ -1,0 +1,11 @@
+a string constains of lowercase letters, arrange all its letters in ascending order.
+eg: 5
+edcab
+op: abcde
+
+whats-img found in geekforgeeks time complexity: o(n) easy
+
+def sortele(str):
+  op=''.join(sorted(str))
+  print(op)
+sortele('acb')
